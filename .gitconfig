@@ -1,9 +1,0 @@
-[cocevdmitrii]
-	email = cocev.dmitrii@gmail.com
-[init]
-	defaultBranch = main
-[user]
-	name = drrible
-	email = cocev.dmitrii@gmail.com
-[commit]
-	template = /home/cocevdmitrii/.gitmessage.txt
