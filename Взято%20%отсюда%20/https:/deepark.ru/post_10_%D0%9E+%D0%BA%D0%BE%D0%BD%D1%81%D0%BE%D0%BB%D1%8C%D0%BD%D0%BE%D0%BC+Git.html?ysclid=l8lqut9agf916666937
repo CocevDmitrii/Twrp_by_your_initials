@@ -425,3 +425,7 @@ $ git config -- alias.unstage 'reset HEAD –' популярное сокращ
 $ git config --global alias.last 'log -1 HEAD' популярное сокращение.
 $ git config --global alias.visual "!gitk" запустить внешнюю утилиту gitk
 $ python3 setup.py install 
+
+<!--next 300 meters -->
+$ ctrl + alt + f1
+$ ctrl + alt + f7 
