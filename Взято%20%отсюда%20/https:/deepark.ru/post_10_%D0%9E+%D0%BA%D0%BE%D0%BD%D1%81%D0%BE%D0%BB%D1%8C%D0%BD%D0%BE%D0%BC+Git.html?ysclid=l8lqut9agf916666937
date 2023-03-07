@@ -430,3 +430,16 @@ $ python3 setup.py install
 $ ctrl + alt + f1
 $ ctrl + alt + f7 
 <!-- please do not try harakiri -->
+server {
+   listen 192.168.0.120:80;
+
+   server_name url-routing.efim360.ru;
+   root /var/www/url-routing.efim360.ru;
+
+   index index.html index.htm;
+
+   location / {
+      proxy_pass http://192.168.0.120:8008;
+      proxy_set_header Host $host;
+   }
+}
