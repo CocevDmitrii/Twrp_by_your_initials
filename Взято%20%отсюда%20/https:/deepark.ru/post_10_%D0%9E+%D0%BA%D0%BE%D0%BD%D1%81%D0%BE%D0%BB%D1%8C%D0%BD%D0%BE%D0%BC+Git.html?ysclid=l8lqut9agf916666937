@@ -41,6 +41,15 @@ $ git clone https://github.com/my/repo mydir клонировать репози
         $ git config --global user.email my@email.com
 
      git remote add origin git@github.com:username/repo.git
+     
+     
+     
+
+!@#  .git  .gitignore  LICENSE  README.md
+
+
+
+
 
     Добавляем файлы в индекс и они переходят в состояние staged
     $ git add *
